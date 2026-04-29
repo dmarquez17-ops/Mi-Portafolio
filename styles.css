@@ -1,0 +1,149 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Catamaran:wght@300;400&family=Inter:wght@400&display=swap');
+
+/* Estilos generales */
+body {
+  background-color: #FFE7FC;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navegación */
+.nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.nav button {
+  background: none;
+  border: 3px solid #CB2AA8;
+  width: 32px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 32px;
+  color: #91007E;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #91007E;
+  margin-bottom: 12px;
+}
+
+.hero img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* Secciones */
+.seccion {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.seccion h2 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 24px;
+  color: #91007E;
+  margin-bottom: 10px;
+}
+
+.seccion p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+/* Tarjetas de proyectos */
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  background-color: #F398E7;
+  border-radius: 12px;
+  padding: 16px;
+  width: 295px;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 194px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.tarjeta h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #91007E;
+  margin-bottom: 8px;
+}
+
+.tarjeta p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #CB2AA8;
+}
+
+/* Footer / Contacto */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer h2 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 24px;
+  color: #91007E;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+footer a {
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+footer a:hover {
+  color: #CB2AA8;
+  text-decoration: underline;
+}
